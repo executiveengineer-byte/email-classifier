@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block title %}Upload Leads{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title">Upload Sales Leads</h3>
+                <p class="card-subtitle text-muted">Upload an Excel (.xlsx) file with lead information.</p>
+            </div>
+            <div class="card-body">
+                <!-- Add a spot for flash messages -->
+                {% with messages = get_flashed_messages(with_categories=true) %}
+                    {% if messages %}
+                        {% for category, message in messages %}
+                            <div class="alert alert-{{ category }} alert-dismissible fade show" role="alert">
+                                {{ message }}
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                            </div>
+                        {% endfor %}
+                    {% endif %}
+                {% endwith %}
+
+                <form action="{{ url_for('upload_leads') }}" method="POST" enctype="multipart/form-data">
+                    <div class="mb-3">
+                        <label for="file" class="form-label">Choose Excel File</label>
+                        <input class="form-control" type="file" id="file" name="file" accept=".xlsx" required>
+                        <div class="form-text">
+                            Ensure your file has columns like 'name', 'email', 'company', etc.
+                        </div>
+                    </div>
+                    <button class="btn btn-primary" type="submit">
+                        <i class="bi bi-upload me-2"></i>Upload and Process Leads
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

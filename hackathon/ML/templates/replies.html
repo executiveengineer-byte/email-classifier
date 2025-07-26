@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Replies - Bharati AI</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .reply-card {
+            border-left: 4px solid #007bff;
+            margin-bottom: 20px;
+        }
+        .reply-positive { border-left-color: #28a745; }
+        .reply-negative { border-left-color: #dc3545; }
+        .reply-neutral { border-left-color: #6c757d; }
+        .reply-interested { border-left-color: #ffc107; }
+        .reply-text {
+            max-height: 200px;
+            overflow-y: auto;
+            background-color: #f8f9fa;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .confidence-badge {
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-4">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h2>Email Replies</h2>
+            <div>
+                <a href="/send_campaign" class="btn btn-primary">Send Campaign</a>
+                <a href="/dashboard" class="btn btn-secondary">Dashboard</a>
+            </div>
+        </div>
+
+        <!-- Summary Stats -->
+        <div class="row mb-4">
+            <div class="col-md-3">
+                <div class="card text-white bg-primary">
+                    <div class="card-body">
+                        <h5 class="card-title">Total Replies</h5>
+                        <h3>{{ replies|length }}</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card text-white bg-success">
+                    <div class="card-body">
+                        <h5 class="card-title">Positive</h5>
+                        <h3>{{ replies|selectattr('category', 'equalto', 'positive')|list|length }}</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card text-white bg-warning">
+                    <div class="card-body">
+                        <h5 class="card-title">Interested</h5>
+                        <h3>{{ replies|selectattr('category', 'equalto', 'interested')|list|length }}</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card text-white bg-danger">
+                    <div class="card-body">
+                        <h5 class="card-title">Negative</h5>
+                        <h3>{{ replies|selectattr('category', 'equalto', 'negative')|list|length }}</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Filter Options -->
+        <div class="card mb-4">
+            <div class="card-body">
+                <h5>Filter Replies</h5>
+                <div class="row">
+                    <div class="col-md-4">
+                        <select class="form-select" id="categoryFilter">
+                            <option value="">All Categories</option>
+                            <option value="positive">Positive</option>
+                            <option value="negative">Negative</option>
+                            <option value="neutral">Neutral</option>
+                            <option value="interested">Interested</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <input type="text" class="form-control" id="searchFilter" placeholder="Search in replies...">
+                    </div>
+                    <div class="col-md-4">
+                        <button class="btn btn-outline-secondary" onclick="clearFilters()">Clear Filters</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Replies List -->
+        <div id="repliesList">
+            {% if replies %}
+                {% for reply in replies %}
+                <div class="card reply-card reply-{{ reply.category }}" data-category="{{ reply.category }}">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <div>
+                            <strong>{{ reply.from or 'Unknown Sender' }}</strong>
+                            <span class="badge bg-{{ 'success' if reply.category == 'positive' else 'danger' if reply.category == 'negative' else 'warning' if reply.category == 'interested' else 'secondary' }} confidence-badge">
+                                {{ reply.category.title() }}
+                                {% if reply.confidence %}
+                                    ({{ "%.1f"|format(reply.confidence * 100) }}%)
+                                {% endif %}
+                            </span>
+                        </div>
+                        <small class="text-muted">{{ reply.timestamp.strftime('%Y-%m-%d %H:%M') }}</small>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="card-subtitle mb-2 text-muted">{{ reply.subject or 'No Subject' }}</h6>
+                        <div class="reply-text">
+                            {{ reply.reply_text|truncate(500) }}
+                        </div>
+                        {% if reply.reply_text|length > 500 %}
+                            <button class="btn btn-sm btn-outline-primary mt-2" onclick="toggleFullText(this)">
+                                Show Full Text
+                            </button>
+                            <div class="full-text" style="display: none;">
+                                <div class="reply-text mt-2">
+                                    {{ reply.reply_text }}
+                                </div>
+                            </div>
+                        {% endif %}
+                    </div>
+                </div>
+                {% endfor %}
+            {% else %}
+                <div class="alert alert-info">
+                    <h5>No Replies Yet</h5>
+                    <p>No email replies have been received yet. Make sure:</p>
+                    <ul>
+                        <li>You have sent some campaign emails</li>
+                        <li>The reply listener (Celery beat) is running</li>
+                        <li>Gmail API is properly configured</li>
+                    </ul>
+                </div>
+            {% endif %}
+        </div>
+
+        <!-- Pagination would go here if needed -->
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Filter functionality
+        document.getElementById('categoryFilter').addEventListener('change', filterReplies);
+        document.getElementById('searchFilter').addEventListener('input', filterReplies);
+
+        function filterReplies() {
+            const categoryFilter = document.getElementById('categoryFilter').value;
+            const searchFilter = document.getElementById('searchFilter').value.toLowerCase();
+            const replyCards = document.querySelectorAll('.reply-card');
+
+            replyCards.forEach(card => {
+                const category = card.getAttribute('data-category');
+                const text = card.textContent.toLowerCase();
+                
+                const categoryMatch = !categoryFilter || category === categoryFilter;
+                const searchMatch = !searchFilter || text.includes(searchFilter);
+                
+                if (categoryMatch && searchMatch) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+
+        function clearFilters() {
+            document.getElementById('categoryFilter').value = '';
+            document.getElementById('searchFilter').value = '';
+            filterReplies();
+        }
+
+        function toggleFullText(button) {
+            const fullTextDiv = button.nextElementSibling;
+            if (fullTextDiv.style.display === 'none') {
+                fullTextDiv.style.display = 'block';
+                button.textContent = 'Hide Full Text';
+            } else {
+                fullTextDiv.style.display = 'none';
+                button.textContent = 'Show Full Text';
+            }
+        }
+
+        // Auto-refresh every 30 seconds
+        setInterval(() => {
+            location.reload();
+        }, 30000);
+    </script>
+</body>
+</html>

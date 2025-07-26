@@ -1,0 +1,121 @@
+{% extends "base.html" %}
+
+{% block title %}Sales Dashboard{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <div>
+        <h2 class="mb-0">Sales Outreach Dashboard</h2>
+        <p class="text-muted">Performance overview of email campaigns</p>
+    </div>
+    <a href="{{ url_for('send_campaign') }}" class="btn btn-primary">
+        <i class="bi bi-send me-2"></i>New Campaign
+    </a>
+</div>
+
+<!-- KPI Cards -->
+<div class="row g-4">
+    <div class="col-md-3">
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <h6 class="card-subtitle text-muted">Total Emails Sent</h6>
+                <h2 class="card-title">{{ total_sent }}</h2>
+                <small>{{ total_campaigns }} Campaigns</small>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <h6 class="card-subtitle text-muted">Total Replies</h6>
+                <h2 class="card-title">{{ total_replies }}</h2>
+                <small>{{ total_leads }} Total Leads</small>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <h6 class="card-subtitle text-muted">Response Rate</h6>
+                <h2 class="card-title">{{ response_rate }}%</h2>
+                <div class="progress mt-2" style="height: 5px;">
+                    <div class="progress-bar" role="progressbar" style="width: {{ response_rate }}%;" aria-valuenow="{{ response_rate }}" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-white bg-success shadow-sm">
+            <div class="card-body">
+                <h6 class="card-subtitle">Interested Leads</h6>
+                {% set interested_count = (reply_stats|selectattr('_id', 'equalto', 'interested')|first).count | default(0) %}
+                <h2 class="card-title">{{ interested_count }}</h2>
+                <small>From all campaigns</small>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Charts and Lists -->
+<div class="row g-4 mt-3">
+    <!-- Reply Distribution Chart -->
+    <div class="col-lg-5">
+        <div class="card shadow-sm h-100">
+            <div class="card-body">
+                <h5 class="card-title">Reply Distribution</h5>
+                {% if reply_category_chart %}
+                    <img src="data:image/png;base64,{{ reply_category_chart }}" class="img-fluid" alt="Reply Categories Chart">
+                {% else %}
+                    <div class="text-center p-5 text-muted">
+                        <i class="bi bi-pie-chart fs-1"></i>
+                        <p>No replies yet to generate a chart.</p>
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+
+    <!-- Top Campaigns and Hot Leads -->
+    <div class="col-lg-7">
+        <!-- Top Campaigns -->
+        <div class="card shadow-sm mb-4">
+            <div class="card-header">
+                <h5 class="card-title mb-0">Top Performing Campaigns</h5>
+            </div>
+            <div class="list-group list-group-flush">
+                {% if top_campaigns %}
+                    {% for campaign in top_campaigns %}
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <strong>{{ campaign.name }}</strong>
+                        <br>
+                        <small class="text-muted">Sent: {{ campaign.get('sent_count', 0) }} | Replies: {{ campaign.get('reply_count', 0) }}</small>
+                    </a>
+                    {% endfor %}
+                {% else %}
+                    <div class="list-group-item text-muted">No campaigns have been sent yet.</div>
+                {% endif %}
+            </div>
+        </div>
+
+        <!-- Hot Leads -->
+        <div class="card shadow-sm">
+            <div class="card-header">
+                <h5 class="card-title mb-0">Recent "Interested" Replies</h5>
+            </div>
+             <div class="list-group list-group-flush">
+                {% if hot_leads %}
+                    {% for lead in hot_leads %}
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <strong>{{ lead.from }}</strong>
+                        <span class="badge bg-success float-end">Interested</span>
+                        <div class="text-muted text-truncate" style="max-width: 80%;">{{ lead.subject }}</div>
+                    </a>
+                    {% endfor %}
+                {% else %}
+                    <div class="list-group-item text-muted">No "interested" replies found recently.</div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

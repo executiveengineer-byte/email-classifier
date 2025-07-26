@@ -1,9 +1,0 @@
-*.env
-**/*/__pycache__
-**/*/node_modules
-**/*/env
-
-#root
-
-/env
-/__pycache__

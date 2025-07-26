@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+
+{% block title %}Manage Leads{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <div>
+        <h2 class="mb-0">Manage Sales Leads</h2>
+        <p class="text-muted">Assign new leads to your sales team.</p>
+    </div>
+    <a href="{{ url_for('upload_leads') }}" class="btn btn-primary">
+        <i class="bi bi-upload me-2"></i>Upload New Leads
+    </a>
+</div>
+
+<div class="card shadow-sm">
+    <div class="card-body">
+        <table class="table table-hover align-middle">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email / Company</th>
+                    <th class="text-center">Status</th>
+                    <th>Assigned To</th>
+                    <th class="text-end">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% if leads %}
+                    {% for lead in leads %}
+                    <tr>
+                        <td>{{ lead.get('name', 'N/A') }}</td>
+                        <td>
+                            <div>{{ lead.get('email', 'N/A') }}</div>
+                            <small class="text-muted">{{ lead.get('company', 'N/A') }}</small>
+                        </td>
+                        <td class="text-center">
+                            {% set status = lead.get('status', 'new')|lower %}
+                            {% set badge_class = 'bg-secondary' %}
+                            {% if status == 'interested' %}{% set badge_class = 'bg-success' %}{% endif %}
+                            <span class="badge {{ badge_class }}">{{ status|title }}</span>
+                        </td>
+                        <td>
+                            {% if lead.get('assigned_to') %}
+                                {{ lead.get('assigned_to') }}
+                            {% else %}
+                                <span class="text-muted">Unassigned</span>
+                            {% endif %}
+                        </td>
+                        <td class="text-end">
+                            {% if not lead.get('assigned_to') %}
+                            <form method="POST" action="{{ url_for('assign_lead') }}" class="d-flex gap-2 justify-content-end">
+                                <input type="hidden" name="lead_id" value="{{ lead._id }}">
+                                <select name="sales_person_name" class="form-select form-select-sm" style="width: auto;">
+                                    <option selected disabled>Assign to...</option>
+                                    {% for person in sales_people %}
+                                    <option value="{{ person.name }}">{{ person.name }}</option>
+                                    {% endfor %}
+                                </select>
+                                <button type="submit" class="btn btn-sm btn-outline-primary">Assign</button>
+                            </form>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                {% else %}
+                <tr>
+                    <td colspan="5" class="text-center p-4">
+                        No leads found. <a href="{{ url_for('upload_leads') }}">Upload some now</a>.
+                    </td>
+                </tr>
+                {% endif %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}

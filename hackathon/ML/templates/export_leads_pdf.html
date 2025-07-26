@@ -1,0 +1,43 @@
+<!-- START OF FILE: templates/export_leads_pdf.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Leads Report</title>
+    <style>
+        body { font-family: sans-serif; font-size: 12px; }
+        h1 { text-align: center; color: #333; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        tr:nth-child(even) { background-color: #f9f9f9; }
+    </style>
+</head>
+<body>
+    <h1>My Assigned Leads</h1>
+    <p>Report for: <strong>{{ user_name }}</strong></p>
+    <p>Generated on: {{ moment().format('MMMM Do YYYY, h:mm a') }}</p>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Company</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for lead in leads %}
+            <tr>
+                <td>{{ lead.get('name', 'N/A') }}</td>
+                <td>{{ lead.get('email', 'N/A') }}</td>
+                <td>{{ lead.get('company', 'N/A') }}</td>
+                <td>{{ lead.get('status', 'N/A')|title }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

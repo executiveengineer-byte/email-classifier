@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bharati AI Dashboard Report</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 13px;
+            padding: 20px;
+            background-color: white;
+            color: #000;
+        }
+        .report-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .report-header h1 {
+            margin-bottom: 0;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            font-size: 1.3em;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        .stat {
+            margin-bottom: 8px;
+        }
+        img {
+            max-width: 100%;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.95em;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 6px;
+            text-align: left;
+        }
+        th {
+            background-color: #f3f3f3;
+        }
+    </style>
+</head>
+<body>
+    <div class="report-header">
+        <h1>Bharati AI Dashboard Report</h1>
+        <p><strong>Date:</strong> {{ last_updated }}</p>
+    </div>
+
+    <div class="section">
+        <h2>Summary</h2>
+        <div class="stat">Total Emails: {{ total }}</div>
+        <div class="stat">SLA Compliance: {{ sla_met_pct | round(2) }}%</div>
+        <div class="stat">ML Confidence: {{ avg_ml_confidence | round(2) }}%</div>
+        <div class="stat">Rules Confidence: {{ avg_rule_confidence | round(2) }}%</div>
+    </div>
+
+    <div class="section">
+        <h2>Confidence Trends</h2>
+        <img src="data:image/png;base64,{{ conf_trend_chart }}">
+    </div>
+
+    <div class="section">
+        <h2>Category Distribution</h2>
+        <img src="data:image/png;base64,{{ category_chart }}">
+    </div>
+
+    <div class="section">
+        <h2>Email Volume Trend</h2>
+        <img src="data:image/png;base64,{{ trend_chart }}">
+    </div>
+
+    <div class="section">
+        <h2>Top Product Mentions</h2>
+        <img src="data:image/png;base64,{{ top_products_chart }}">
+    </div>
+
+    {% if heatmap %}
+    <div class="section">
+        <h2>Product-Category Heatmap</h2>
+        <img src="data:image/png;base64,{{ heatmap }}">
+    </div>
+    {% endif %}
+
+    <div class="section">
+        <h2>Recent Classifications</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Category</th>
+                    <th>Products</th>
+                    <th>Response Time (h)</th>
+                    <th>SLA</th>
+                    <th>Confidence (%)</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for email in recent_emails %}
+                <tr>
+                    <td>{{ email.time }}</td>
+                    <td>{{ email.category }}</td>
+                    <td>{{ email.tags | join(', ') }}</td>
+                    <td>{{ email.response_time }}</td>
+                    <td>{{ "Met" if email.sla_met else "Breached" }}</td>
+                    <td>{{ email.confidence | round(2) }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

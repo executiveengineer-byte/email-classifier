@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block title %}Create Campaign{% endblock %}
+{% block content %}
+<div class="card">
+    <div class="card-header">
+        <h3>Create a New Email Campaign</h3>
+    </div>
+    <div class="card-body">
+        <form method="POST">
+            <div class="mb-3">
+                <label for="campaign_name" class="form-label">Campaign Name</label>
+                <input type="text" class="form-control" id="campaign_name" name="campaign_name" required>
+            </div>
+            <div class="mb-3">
+                <label for="subject" class="form-label">Email Subject</label>
+                <input type="text" class="form-control" id="subject" name="subject" required>
+            </div>
+            <div class="mb-3">
+                <label for="body" class="form-label">Email Body</label>
+                <textarea class="form-control" id="body" name="body" rows="10" required></textarea>
+                <small class="form-text text-muted">Use placeholders like {{name}} and {{company}}.</small>
+            </div>
+            <button type="submit" class="btn btn-primary">Save Campaign</button>
+        </form>
+    </div>
+</div>
+{% endblock %}

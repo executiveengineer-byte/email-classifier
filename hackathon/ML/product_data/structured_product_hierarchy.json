@@ -1,0 +1,161 @@
+{
+  "FEXT": {
+    "Dry Chemical Powder Type": {
+      "MAP (Stored Pressure)/ABC": [
+        { "name": "1kg", "code": "FEXT-DRY_CHEM_POWDER_TYPE-MAP_ABC-1KG" },
+        { "name": "2kgs", "code": "FEXT-DRY_CHEM_POWDER_TYPE-MAP_ABC-2KG" },
+        { "name": "4kgs", "code": "FEXT-DRY_CHEM_POWDER_TYPE-MAP_ABC-4KG" },
+        { "name": "6kgs", "code": "FEXT-DRY_CHEM_POWDER_TYPE-MAP_ABC-6KG" },
+        { "name": "9kgs", "code": "FEXT-DRY_CHEM_POWDER_TYPE-MAP_ABC-9KG" }
+      ],
+      "SBC (Stored Pressure)/BC": [
+        { "name": "1kg", "code": "FEXT-DRY_CHEM_POWDER_TYPE-SBC_BC-1KG" },
+        { "name": "2kgs", "code": "FEXT-DRY_CHEM_POWDER_TYPE-SBC_BC-2KG" },
+        { "name": "4kgs", "code": "FEXT-DRY_CHEM_POWDER_TYPE-SBC_BC-4KG" },
+        { "name": "6kgs", "code": "FEXT-DRY_CHEM_POWDER_TYPE-SBC_BC-6KG" },
+        { "name": "9kgs", "code": "FEXT-DRY_CHEM_POWDER_TYPE-SBC_BC-9KG" }
+      ]
+    },
+    "CO2 based": {
+      "Portable": [
+        { "name": "2kgs", "code": "FEXT-CO2_PORTABLE-2KG" },
+        { "name": "3kgs", "code": "FEXT-CO2_PORTABLE-3KG" },
+        { "name": "4.5kgs", "code": "FEXT-CO2_PORTABLE-4.5KG" }
+      ],
+      "Trolley Mounted": [
+        { "name": "6.5kgs", "code": "FEXT-CO2_TROLLEY-6.5KG" },
+        { "name": "9kgs", "code": "FEXT-CO2_TROLLEY-9KG" },
+        { "name": "22.5kgs", "code": "FEXT-CO2_TROLLEY-22.5KG" }
+      ]
+    },
+    "Dry Chemical Powder": {
+      "Portable (Squeeze Grip Cartridge Type)": [
+        { "name": "1kg", "code": "FEXT-DRY_CHEM_POWDER-SQUEEZE_GRIP-1KG" },
+        { "name": "2kgs", "code": "FEXT-DRY_CHEM_POWDER-SQUEEZE_GRIP-2KG" },
+        { "name": "4kgs", "code": "FEXT-DRY_CHEM_POWDER-SQUEEZE_GRIP-4KG" },
+        { "name": "6kgs", "code": "FEXT-DRY_CHEM_POWDER-SQUEEZE_GRIP-6KG" },
+        { "name": "9kgs", "code": "FEXT-DRY_CHEM_POWDER-SQUEEZE_GRIP-9KG" }
+      ],
+      "Trolley Mounted": [
+        { "name": "25kgs", "code": "FEXT-DRY_CHEM_POWDER-TROLLEY-25KG" },
+        { "name": "50kgs", "code": "FEXT-DRY_CHEM_POWDER-TROLLEY-50KG" },
+        { "name": "75kgs", "code": "FEXT-DRY_CHEM_POWDER-TROLLEY-75KG" }
+      ]
+    },
+    "Mechanical Foam": {
+      "Portable (Stored Pressure)": [
+        { "name": "9 Litres", "code": "FEXT-MECH_FOAM-PORTABLE_STORED-9L" }
+      ],
+      "Portable (Cartridge Type)": [
+        { "name": "9 Litres", "code": "FEXT-MECH_FOAM-PORTABLE_CARTRIDGE-9L" }
+      ],
+      "Trolley Mounted": [
+        { "name": "45 Litres", "code": "FEXT-MECH_FOAM-TROLLEY-45L" }
+      ]
+    },
+    "Clean Agent": {
+      "Stored Pressure": [
+        { "name": "1kg", "code": "FEXT-CLEAN_AGENT-STORED-1KG" },
+        { "name": "2kgs", "code": "FEXT-CLEAN_AGENT-STORED-2KG" },
+        { "name": "4kgs", "code": "FEXT-CLEAN_AGENT-STORED-4KG" },
+        { "name": "6kgs", "code": "FEXT-CLEAN_AGENT-STORED-6KG" },
+        { "name": "9kgs", "code": "FEXT-CLEAN_AGENT-STORED-9KG" }
+      ]
+    },
+    "Water Type": {
+      "Portable (Stored Pressure)": [
+        { "name": "9 Litres", "code": "FEXT-WATER-PORTABLE_STORED-9L" }
+      ],
+      "Portable (Cartridge Type)": [
+        { "name": "9 Litres", "code": "FEXT-WATER-PORTABLE_CARTRIDGE-9L" }
+      ],
+      "Trolley Mounted": [
+        { "name": "45 Litres", "code": "FEXT-WATER-TROLLEY-45L" }
+      ]
+    }
+  },
+  "MOD": {
+    "ABC based Powder": [
+      { "name": "5kgs", "code": "MOD-ABC_POWDER-5KG" },
+      { "name": "10kgs", "code": "MOD-ABC_POWDER-10KG" },
+      { "name": "15kgs", "code": "MOD-ABC_POWDER-15KG" }
+    ],
+    "Clean Agent": [
+      { "name": "5kgs", "code": "MOD-CLEAN_AGENT-5KG" },
+      { "name": "10kgs", "code": "MOD-CLEAN_AGENT-10KG" },
+      { "name": "15kgs", "code": "MOD-CLEAN_AGENT-15KG" }
+    ]
+  },
+  "LITH": {
+    "FireFite Lith Ex": [
+      { "name": "1L", "code": "LITH-FIREFITE_LITH_EX-1L" },
+      { "name": "2L", "code": "LITH-FIREFITE_LITH_EX-2L" },
+      { "name": "4L", "code": "LITH-FIREFITE_LITH_EX-4L" },
+      { "name": "6L", "code": "LITH-FIREFITE_LITH_EX-6L" },
+      { "name": "9L", "code": "LITH-FIREFITE_LITH_EX-9L" }
+    ],
+    "AVD Fire Blanket": [
+      { "name": "2000x1700mm", "code": "LITH-AVD_BLANKET-SMALL" },
+      { "name": "3300x2600mm", "code": "LITH-AVD_BLANKET-MEDIUM" },
+      { "name": "8000x6000mm", "code": "LITH-AVD_BLANKET-LARGE" }
+    ]
+  },
+  "AERO": {
+    "FAS (Fixed Aerosol System)": [],
+    "Manual Knockdown Tool": [],
+    "DSPA (Dry Sprinkler Powder Aerosol)": []
+  },
+  "DET": {
+    "Smoke Detectors": [],
+    "Heat Detectors": [],
+    "Multi-Sensor Detectors": [],
+    "Portable Gas Leak Detectors": []
+  },
+  "HYD": {
+    "Inlets/Outlets": [
+      { "name": "4 Way Intlets and Outlets", "code": "HYD-INLET_OUTLET-4WAY" }
+    ],
+    "Couplings": [
+      { "name": "Fire hose coupling", "code": "HYD-COUPLING-FIRE_HOSE" }
+    ],
+    "Pumps": [
+      { "name": "Fire Hydrant Pumps", "code": "HYD-PUMP-FIRE_HYDRANT" }
+    ],
+    "Sprinklers": [
+      { "name": "Water drip ball", "code": "HYD-SPRINKLER-WATER_DRIP" },
+      { "name": "Atomizing", "code": "HYD-SPRINKLER-ATOMIZING" },
+      { "name": "Quick response", "code": "HYD-SPRINKLER-QUICK_RESPONSE" },
+      { "name": "ESFR", "code": "HYD-SPRINKLER-ESFR" },
+      { "name": "Glass bulb", "code": "HYD-SPRINKLER-GLASS_BULB" },
+      { "name": "Open spray", "code": "HYD-SPRINKLER-OPEN_SPRAY" }
+    ],
+    "Other": [
+      { "name": "Fire bucket", "code": "HYD-ACCESSORY-FIRE_BUCKET" },
+      { "name": "Hose pipe", "code": "HYD-ACCESSORY-HOSE_PIPE" },
+      { "name": "Hose reel drum", "code": "HYD-ACCESSORY-HOSE_REEL" },
+      { "name": "Hydrant Monitor", "code": "HYD-ACCESSORY-HYDRANT_MONITOR" },
+      { "name": "White Hose pipe", "code": "HYD-ACCESSORY-WHITE_HOSE" }
+    ],
+    "Valves": [
+      { "name": "Hydrant Valve", "code": "HYD-VALVE-HYDRANT" },
+      { "name": "Wet Alarm Valve", "code": "HYD-VALVE-WET_ALARM" },
+      { "name": "Dry Alarm Valve", "code": "HYD-VALVE-DRY_ALARM" }
+    ]
+  },
+  "FET": {
+    "Trolleys": [
+      { "name": "CO2 Twin Trolley", "code": "FET-TROLLEY-CO2_TWIN" },
+      { "name": "DCP - Foam Twin Trolleys", "code": "FET-TROLLEY-DCP_FOAM_TWIN" }
+    ]
+  },
+  "SYS": {
+    "Spray System": [],
+    "Hydrant System": [],
+    "Sprinkler System": [],
+    "Automotive": [
+      { "name": "Firefite FDAS (Fire Detection & Alarm System)", "code": "SYS-AUTO-FIRE_DETECTION_ALARM" },
+      { "name": "Firefite FDSS (Fire Detection & Suppression System)", "code": "SYS-AUTO-FIRE_DETECTION_SUPPRESSION" },
+      { "name": "Firefite FAPS (Fire Alarm & Protection System)", "code": "SYS-AUTO-FIRE_ALARM_PROTECTION" }
+    ]
+  }
+}

@@ -1,0 +1,379 @@
+text,category,email_length,num_questions,num_exclamations,contains_table,has_po,has_gst,has_model,has_urgent,has_project,has_specs,has_legal,has_pricing_word,has_certification_request,follow_up_signal,is_escalation,context_reference
+"We are in the process of bidding FPS package for Adani Mundra West Port, ISBL and OSBL Project. Kindly provide your best prices for aerosol based fire protection systems for various HT, LT panels, battery rooms and UPS rooms. Includes: Substation 12 – Rio Room (MCC, PCC, APFC, MLDB Panels), Lighting Transformer Rooms, and 11 KV Main Switchboard. BOQ shared for quotation.",quotation_request,373,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0
+"Kindly quote for marine grade extinguishers as per SOLAS standards. Required: CO2, DCP, and foam variants.",quotation_request,106,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0
+Please provide a quotation for 25 units of 6 kg ABC fire extinguishers with wall mounting brackets and ISI certification.,quotation_request,121,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+The invoice sent does not match the quoted amount. Kindly include GST No: 27AAACX1234Z1Z in the invoice.,complaint,105,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1
+Installation team arrived late and were unprepared.,complaint,51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Delivery was delayed by more than a week despite commitment. As per PO #22483.,complaint,82,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1
+"Please find the below enquiry and quote your best prices. Project: Equinix Project, Chennai. Required: 134 Nos of 4.5 kg CO2 ISI marked fire extinguishers with wall brackets, and 18 Nos of 6 kg ABC type stored pressure extinguishers with mounting brackets. Installation as per structure. Kindly include GST No: 27AAACX1234Z1Z in the invoice.",quotation_request,341,0,0,1,0,1,0,0,1,0,0,1,1,0,0,0
+"Dear Sir, Greetings & hope you are doing well !! This has reference to the above cited subject, regarding the requirement of GAS AEROSOL GENERATOR,FIRE EXTINGUISHER,AEROSOL GAS RELEASE FIRE PANE AND FIRE DETECTION SYSTEM for our project. Kindly find the enclosed technical specification for your reference. We request you to kindly provide your best quotation along with the following documents. MAKE IN INDIA DECLRATION – MII Datasheet of the offered product Make / Model : HSN Code : ·Warranty confirmation : ·All relevant certificates such as Equipment Type Approval, EC, BIS, and other relevant certificates if applicable. We appreciate your prompt attention to this matter and your assistance. Should you require any further clarification kindly suggest. Kindly include GST No: 27AAACX1234Z1Z in the invoice.",general_enquiry,813,0,2,1,0,1,1,0,1,1,1,1,1,0,0,0
+"Dear, My name is Quynh Anh Nguyen, Purchasing Manager of HAANH Group. We are currently sourcing aerosol fire extinguishing units (2.5kg–5kg) for an upcoming defense project in Vietnam. Our company has over 20 years of experience delivering major national projects in partnership with key government agencies such as the Ministry of National Defense and the Ministry of Public Security. We are seeking reliable, certified products for use in high risk environments such as server rooms, electrical panels, and control cabinets. For this project, it is mandatory that the units are UL 2775 certified or FM approved. We kindly request the following information: Product catalogue and technical datasheet Copy of UL or FM certificate (scanned) Best quotation for bulk quantity Estimated lead time and delivery schedule Warranty and aftersales service details We look forward to your prompt response and the opportunity to collaborate with your company. Our GST No: 27AABCU9603R1ZV is applicable.",general_enquiry,999,0,0,1,0,1,0,0,1,1,1,1,1,0,0,0
+Your team did not respond to follow up emails regarding installation. As per PO #50436.,complaint,88,0,0,0,1,0,0,0,0,0,0,0,0,1,1,1
+Installation team arrived unprepared and delayed our project timeline. Preferred Model No: ABC-6KG.,complaint,98,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0
+What are the servicing charges and schedule for your DCP extinguishers?,general_enquiry,71,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"We urgently require a quotation for the following items: 15 Nos of 9L foam extinguishers with spare charge, 1 No of 5kg CO2 Class B extinguisher with spare charge, 1 No of 45L portable foam applicator, and 2 Nos of 6kg powder extinguishers with spare charge. All items should have SOLAS 74, MSC 98(73), and EU MED approval. Please send your best offer at the earliest. Our GST No: 27AABCU9603R1ZV is applicable.",quotation_request,432,0,0,1,0,1,0,1,0,0,0,1,1,0,0,0
+"What certifications do your extinguishers carry (ISI, CE, etc.)?",general_enquiry,64,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Several units arrived without safety pins attached.,complaint,51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"We noticed missing brackets in the package for the 4.5kg CO2 units. Kindly include GST No: 27AAACX1234Z1Z in the invoice. Items: Item: 4kg CO2 | Qty: 5 | Rate: Rs. 2400/-",complaint,167,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0
+Delivery was made at wrong address despite clear instructions. Kindly include GST No: 27AAACX1234Z1Z in the invoice.,complaint,121,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Please provide your quotation for Firefite make extinguishers at Philips R&D Center, Pimpri Pune. Items include: ISI marked 4.5 kg CO2 extinguishers with 90% MAP and mounting brackets, ISI marked 6 kg ABC type stored pressure extinguishers with brackets, ISI marked 4.5 kg DCP stored pressure extinguishers with brackets, and a set of 4 sand buckets (2 coats red oxide + PO red paint), wall/floor mounted. Kindly include GST No: 27AAACX1234Z1Z in the invoice.",quotation_request,459,0,0,1,0,1,0,0,1,0,0,1,1,0,0,0
+"Please find the below enquiry and send the most competitive rates. Required: 47 Nos of ISI marked 4.5 kg CO2 fire extinguishers with wall mounting brackets (55B Fire Rating), and 5 Nos of 9 kg CO2 fire extinguishers with brackets (55B Fire Rating). Preferred makes: Firefite, Minimax, Kanex. Preferred Model No: DCP-4KG.",quotation_request,319,0,0,1,0,0,1,0,0,0,0,1,1,0,0,0
+Please share pricing and availability for 4 sets of extinguishers and associated brackets for commercial installation. Preferred Model No: FMX-2.5L.,quotation_request,146,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0
+Received CO2 extinguishers without wall brackets as committed in PO.,complaint,68,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1
+Do you provide training for fire extinguisher use after purchase?,general_enquiry,65,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+There was a mismatch in the number of items delivered vs invoice. Preferred Model No: FMX-2.5L.,complaint,93,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1
+"Dear Team, We have an urgent requirement of CO2 Fire Extinguishers & Firefighting Foam for PKG 01 & PKG 02 as per attached specification. Request you to please go through the same and submit your offer with complete terms & conditions. Technical Acceptance cum Deviation Sheet duly filled, signed and stamped shall be required along with offer. Also please submit the Catalogue or Datasheet of the items you intend to quote. The following points needs to be considered while submitting the offer :  Incoterm : DDP MPT Central Warehouse & Bhagyam Warehouse (Vedanta Barmer – Rajasthan) as per Qty specified in attached sheet. Packing & Forwarding, Freight, Transit Insurance shall be in your scope. It shall be included in your quoted price. No extra charges shall be payable. GST Rate & HSN Code should be mentioned clearly. Payment Terms : Within 30 days from receipt & acceptance of material at site. Offer Validity shall be 90 days minimum. Lead time to be confirmed. Warranty Period to be confirmed Material Test Certificates/Warranty Certificates shall be required along with material. Please note that this is our firm requirement, so your complete offer (duly signed & stamped) should be submitted within 3 working days from receipt of this mail. Preferred Model No: ABC-6KG.",general_enquiry,1281,0,0,1,0,0,1,1,1,1,1,1,1,0,0,0
+"Please send us your best offer for the following: 1 No 50L foam filled wheeled fire extinguisher, inside cartridge type MMD approved, 2 Nos of 9L foam extinguishers (Make: Andex), 4 Nos of 10 kg DCP dry chemical powder extinguishers, 6 Nos of 200g cartridges, 12 CO2 hoses with horn for 6.8 kg capacity, and 6 DCP hoses with horn for 10 kg capacity. RFQ #: 01 25 00277, BARG Marine & Industrial Projects Pvt. Ltd. Kindly include GST No: 27AAACX1234Z1Z in the invoice.",quotation_request,467,0,0,1,0,1,0,0,1,0,0,1,1,0,0,0
+Refilling quality seems poor multiple complaints from safety officer. As per PO #36062.,complaint,88,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1
+Received 5 kg units instead of the requested 6 kg extinguishers.,complaint,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Kindly send your quotation for the enclosed list of industrial fire safety products including CO2 and DCP types.,quotation_request,112,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Material was delivered without the required test certificates.,complaint,62,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0
+Can you confirm the warranty and refilling interval for ABC extinguishers?,general_enquiry,74,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Requesting quotation for 12 units of 9L foam extinguishers for our warehouse safety audit next month. Kindly include GST No: 27AAACX1234Z1Z in the invoice.,quotation_request,155,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+Refilling was not done as committed in the AMCs. Kindly include GST No: 27AAACX1234Z1Z in the invoice.,complaint,102,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+"Dear Sir, we require the following material for our MRVCL, Mumbai Railway Project: 120 Nos of 6.5 kg CO2 type fire extinguishers. Please quote your best possible minimum rates along with the delivery schedule at the earliest so that the order can be finalized.",quotation_request,260,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0
+"Please quote for the following items as per requirements and share your catalogues at the earliest. Required: 38 pieces of 6 kg fire extinguishers with IRS approval. Contact: Seahawk Marine Supply, Mumbai. As per PO #50362.",quotation_request,224,0,0,1,1,0,0,0,0,0,0,0,1,0,0,1
+"Request for quotation IRS approved portable fire extinguishers. Required: 25 units of 9L foam extinguishers, 14 CO₂ cartridges (90g), refilling & CO₂ cartridge for 45L wheeled foam extinguisher (2 Nos), for 135L extinguisher (1 No), 1 foam applicator, 3 AFFF 20L (6%) foam cans, and transportation cost to Mumbai port. Please quote urgently. Reference PO#: 11008.",quotation_request,360,0,0,1,1,0,0,1,0,0,0,1,1,0,0,1
+Can you share the technical specs of your 6kg ABC extinguisher?,general_enquiry,63,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+"Hi Team, Good Day. I wanted to check with you if your Fire Fite brand fire extinguishers have type approval certificates. I am specifically looking for ABC (Stored Pressure) Type Fire Extinguisher 02 Kg. Capacity. As per IS : 15683.",general_enquiry,232,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0
+"Kindly provide your quotation with best price for the following: 38 Nos of 4.5 kg CO2 fire extinguishers with wall mounting brackets (ISI mark), 43 Nos of 6 kg ABC type stored pressure fire extinguishers (ISI mark), 1 No of 9L handheld K type fire extinguisher with brackets, and 1 No of mechanical foam type fire extinguisher with valve, fill, horn and trolley. Required by Argus Secure. Preferred Model No: DCP-4KG.",quotation_request,416,0,0,1,0,0,1,0,0,0,0,1,1,0,0,0
+"Hello sir, My Name is Navi and I am from California USA. I am running my own buisness in India and And I Have best Clint list over there. Now recently I shifted to USA from last 3 year. We plan to work here also with same profession to sell fire fighting equipment. I looking for one of the best brand and manufacturer's which one full fill our requirements in USA and India also after search on internet I see your brand is suitable for me . Hope your brand and company support me to sell best quality to the customers satisfaction. First we start with extinguisher sale of your brand so plz send me your price list and your brand catalog for me . give me best price so that we can beat other brands in Markit. ABC 2lb to 10 lb ABC 4 kg. 6 kg. 10kg Note: I have 13/14 year experience in fire and industrial safety and also member of NFPA And FSAI ( INDIA)was worked with world leadings brands. We are waiting for your reply.",general_enquiry,925,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0
+Looking for your office address and lead time for a site visit. Preferred Model No: DCP-4KG.,general_enquiry,91,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"We require 35 pieces of each of the following fire extinguishers. Please send your quote at the earliest with stock status: 6 kg powder fire extinguisher with MAP based powder and IRS class approval, and 6 kg powder fire extinguisher with SBC based powder and IRS class approval. Request from Seahawk Marine Supply.",quotation_request,315,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0
+"Please send quotation for the supply of the following fire extinguishers: 3 Nos of 2 kg DCP stored pressure type (MAP 40%, ISI approved), 23 Nos of 9 kg DCP SBC cartridge type (IRS approved), 6 Nos of 6 kg DCP SBC cartridge type (IRS approved), 9 Nos of 9 kg CO2 IRS approved, 14 Nos of 6.5 kg CO2 IRS approved, and 2 Nos of 9L water type stored pressure ISI approved. Request from MM Cargo Gear and Marine Services Pvt Ltd, Kakinada, Andhra Pradesh.",quotation_request,450,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0
+"Dear Madam Please find our BIS Licence copy and IRS certificate for SBC. Thanks & Regards, As per PO #84960. Our GST No: 27AABCU9603R1ZV is applicable.",general_enquiry,144,0,0,0,1,1,0,0,0,0,0,0,1,0,0,1
+Kindly provide the rates for the following enquiry: 2 pcs of 9 liter foam portable extinguishers and 2 pcs of 4.5 kg DCP portable fire extinguishers. Request from SHM Group.,quotation_request,173,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0
+"Dear Team, Greetings from Tiger Fire! We, Tiger Fire and Security System, based in Abu Dhabi, UAE, are writing to express our interest in representing your esteemed brand as an agent/distributor for your firefighting products—particularly the Kitchen Hood Suppression System—in the United Arab Emirates. With over 5 years of experience in the fire safety industry and a well established network of clients across industrial, commercial, and government sectors, we are confident in our ability to promote and expand your product presence in this growing market. We are highly impressed by the quality and innovation of your product range, which aligns perfectly with our company’s values and the market demands in our region. We would appreciate the opportunity to explore a potential collaboration and request more information regarding your agency terms, product catalog, and partnership requirements. Please let us know a convenient time for a call or virtual meeting. Thank you for considering our request. We look forward to the possibility of working together.",general_enquiry,1065,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0
+Please provide MSDS and compliance info for foam extinguishers. As per PO #33634.,general_enquiry,82,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1
+"Please share the best quote and availability for the following: 88 Nos of 2 kg FE36 extinguishers with wall mounting bracket, 8 sets of sand buckets with ISI marking and red paint, 9L foam type extinguishers with mounting accessories, 8 photoluminescent “Fire Extinguisher” signs, and 6 tripod floor stands with accessories. Required for Digital Edge Phase 2, Mumbai. Make: Firefite. As per PO #70484.",quotation_request,402,0,0,1,1,0,0,0,1,0,0,1,1,0,0,1
+"We need urgent quotation for bulk supply of 50 units of dry powder extinguishers, IS:15683 compliant.",quotation_request,101,0,0,1,0,0,0,1,0,0,0,1,1,0,0,0
+"Kindly quote for the following items for the Mumbai Project: 7 Nos of FireFite FAS Series A 5000 (UL APPROVED) Model A5000, 4 Nos of FireFite FAS Series A 5000 Model A5000, 1 No of FireFite FAS Series A 500 Model A500, 4 Sequential Activators, 2 Nos of 5 Amps SMPS Panels with standby battery backup, 1 Agent Release Panel with standby battery backup (UL), 6 Conventional Heat Detectors (UL), and 6 Conventional Smoke Detectors (UL).",quotation_request,433,0,0,1,0,0,1,0,1,0,0,1,1,0,0,0
+"Please provide your best quotation urgently for the following extinguishers: 6 kg DCP cartridge type fire extinguisher with floor stand, IS:15683, MAP 90%, ISI mark; and 22 kg DCP cartridge type fire extinguisher with trolley, IS:15683, ISI mark. Preferred brands: Supremex, Kanex, Bharati Fire. Required for Clinisupplies Pvt Ltd., Ujjain.",quotation_request,340,0,0,1,0,0,0,1,0,0,0,1,1,0,0,0
+Delivered extinguishers are past expiry. Requesting urgent resolution.,complaint,70,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0
+"Dear Business partner, We require Eye washer for shop floor. Please refer below specification and submit quotation as soon as possible. Eye/Face wash fountain: Eye wash fountain head is between 830 1140 mm (83 cm 114 cm) above floor surface. Eyewash Head: Two high flow sprays, operated at low pressure, which washes the eye and face. Anti dust cover protects the head from airborne contaminants and automatically opens with water pressure. Distance between two eye wash head is 140 to 200 mm as per standard. Eyewash Bowl: Bowl Material: SS 304 Size of ABS Bowl 260 ± 5 mm. Material: Pipe: SS304 Fitting: SS304 Flange: SS Casting 304 grade Foot Pedal: For easy supply and control of water flow in the eye wash head without use of hand. Features: Water inlet connections of 1/2’’ NB for eye/face wash. Water outlet connection – 1¼” NB Eye wash discharge rate – 12 lpm.(minimum) . Manually operated valve with push plate for hazel free usage. Receptor bowl attached for minimize wastage of water. With foot pedal for hands free operation to supply and control water flow through eye wash heads. Water supply Operating Pressure: 2.1 Kg / cm2 (30 PSI). Foot Pedal: For easy supply and control of water flow in the eye wash head without use of hand. Base Plate: To hold the shower structure in a stable position. Diameter of the base plate shall be 180 ± 3 m. Push to Open Valve: ½” BSP Ball valve connects units to uninterruptible water supply as per requirement. Colure: Powder coated Quantity: 5 Our GST No: 27AABCU9603R1ZV is applicable.",general_enquiry,1545,0,0,1,0,1,0,0,0,1,0,1,0,0,0,0
+"Dear, Project:  Netmagic DC8 NAV 2 Fire Extinguishers Location Mumbai Please send the following documents with your quote :  Data sheet, Make & Model num against quoted BOQ line item. HSN code & GST Applicable. Applicable Standard warranty for 3 years Freight till site (Included & Delivery timeline. Rate Validity Any Deviation from the BOQ & Technical Specs (attached) to be highlighted (if not done, will be considered as fully complied) Looking forward to your techno commercial proposal ASAP. Please acknowledge the receipt of this email. Thank you",general_enquiry,574,0,0,1,0,0,1,1,1,1,1,1,0,0,0,0
+Need your best quotation on the supply of 5 sets of 4.5kg CO2 extinguishers and 6kg ABC extinguishers with accessories.,quotation_request,119,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Customer support did not provide a resolution to our issue.,complaint,59,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+We are planning procurement for our retail chain kindly quote for 30 fire extinguishers with annual maintenance. Kindly include GST No: 27AAACX1234Z1Z in the invoice. Preferred Model: DCP-6L.,quotation_request,198,0,0,0,0,1,1,0,0,0,1,1,0,0,0,0
+Some of the extinguishers do not have ISI markings as required. Preferred Model No: DCP-4KG.,complaint,91,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0
+Discrepancy in model and specs between quote and delivered items. As per PO #23534.,complaint,84,0,0,0,1,0,1,0,0,1,0,0,0,0,0,1
+"Is it possible to buy extinguishers in custom color or branding? Items: Item: 4kg CO2 | Qty: 5 | Rate: Rs. 2400/-",general_enquiry,128,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"Kindly quote the below item along with lead time: 3 Nos of 9L portable wet chemical fire extinguishers with DGS approval. Regards, Truship Marine Corporation. Kindly include GST No: 27AAACX1234Z1Z in the invoice.",quotation_request,212,0,0,1,0,1,0,0,0,0,0,1,1,0,0,0
+The fire extinguishers delivered were damaged and leaking. Kindly include GST No: 27AAACX1234Z1Z in the invoice.,complaint,117,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+One of the powder extinguishers is leaking and unusable.,complaint,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Need details on your extinguishers suitable for electrical panel rooms.,general_enquiry,71,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+We had to follow up multiple times to receive the quotation. Kindly improve. As per PO #34940.,complaint,95,0,0,0,1,0,0,0,0,0,0,1,0,1,1,1
+"We are looking for your best price on 10 units of trolley mounted foam extinguishers, AFFF 6%, with accessories.",quotation_request,112,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+The quantity received does not match the invoice. Missing 2 units.,complaint,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"Dear Sir/Madam, Please find attached Enquiry for EE systems Please Quote me the offer in the BOQ (excel file) Provided only in front of the line item. Kindly give us the best rates for the same at the EOD. Also quote for QRO line item. Waiting for your favourable response. Kindly take this on priority. Project – Eviden  pune Preferred Model No: CO2-5KG.",general_enquiry,354,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0
+"Dear Sir, We have a requirement of ""SCBA SET   04 NOS & SPARES SCBA CYLINDERS   04 NOS"" as per the attached specifications sheet. END USER: GRSE   KOLKATA We request you to kindly forward the techno commercial proposal along with catalogues. We are looking for your kind support and cooperation. Preferred Model No: CO2-5KG.",general_enquiry,323,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0
+"Hello, kindly send your quote for the below items: 8100 ML AFFF 6% foam container for 135 liter mechanical foam extinguisher (Qty: 1), 2700 ML AFFF 6% foam container for 45 liter mechanical foam (Qty: 6), spare CO2 cartridge for 135 LTR mechanical foam extinguisher (Qty: 1), 135 liter mechanical foam extinguisher (Qty: 1), spare CO2 cartridge for 45 liter mechanical foam extinguisher (Qty: 3), 45 liter mechanical foam extinguisher (semi portable) (Qty: 3), spare CO2 cartridge for 9 LTR mechanical foam (Qty: 8). Preferred Model No: CO2-5KG. Our GST No: 27AABCU9603R1ZV is applicable.",quotation_request,570,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0
+We faced issues with nozzle alignment in 3 delivered units. Preferred Model No: ABC-6KG. Reference PO#: 84523.,complaint,118,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1
+"We require extinguishers and fire accessories for our project in Surat. Please provide rates and technical data sheets. Required items: 4.5 kg CO2 type extinguisher, 5 kg DCP type extinguisher, 50 kg foam based fire extinguisher (trolley mounted), and 22.5 kg CO2 extinguisher (trolley mounted), all with accessories as per Indian Standard.",quotation_request,340,0,0,1,0,0,0,0,1,1,0,1,1,0,0,0
+"Dear Vendor, We at Reliance are in the process of compiling and updating our database of vendor profiles for our records & future procurement opportunities. We kindly request you to share your latest company profile. Items: Item: 4kg CO2 | Qty: 5 | Rate: Rs. 2400/-",general_enquiry,280,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0
+"Please quote for 10 extinguishers with CE and UL approvals, to be delivered at our Navi Mumbai facility. As per PO #53348. Our GST No: 27AABCU9603R1ZV is applicable.",quotation_request,158,0,0,0,1,1,0,0,0,0,0,1,1,0,0,1
+One of the delivered units is leaking and appears defective. Kindly arrange replacement. As per PO #98059.,complaint,107,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1
+"Hello, kindly send your quote for the below items: 1 pc of 8100 mL AFFF 6% foam container for 135L mechanical foam extinguisher, 6 pcs of 2700 mL AFFF 6% foam container for 45L foam extinguisher, 1 spare CO2 cartridge for 135L foam extinguisher, 1 pc of 135L foam extinguisher, 3 spare CO2 cartridges for 45L foam extinguisher, 3 pcs of 45L semi portable foam extinguishers, 8 spare CO2 cartridges for 9L extinguishers, 8 pcs of 9L foam extinguishers, 16 pcs of 540 mL AFFF 6% foam container.",quotation_request,492,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0
+The suppression system failed during testing despite proper installation As per PO #79858.,complaint,91,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1
+"Your technician never arrived to fix the reported FDSS issue As per PO #44997. Preferred Model: ABC-5KG. Items: Item: 4kg CO2 | Qty: 5 | Rate: Rs. 2400/-",complaint,160,0,0,1,1,0,1,0,0,0,0,0,0,0,0,1
+Reminder: We're still awaiting the quote promised last Tuesday Kindly include GST No: 27AAACX1234Z1Z in the invoice.,follow_up,116,0,0,1,0,1,0,0,0,0,0,1,0,1,1,1
+Kindly send the pending quotation for extinguishers we requested Kindly include GST No: 27AAACX1234Z1Z in the invoice.,follow_up,118,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+What maintenance schedule do you recommend for aerosol systems? Preferred Model No: ABC-6KG.,general_enquiry,91,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Do you provide Bangalore service visits for installed systems?,general_enquiry,62,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Delivered extinguishers are past expiry. Requesting urgent resolution.... Preferred Model No: DCP-4KG.,complaint,101,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+Reminder: We're still awaiting the quote promised last Tuesday... Kindly include GST No: 27AAACX1234Z1Z in the invoice.,follow_up,119,0,0,1,0,1,0,0,0,0,0,1,0,1,1,1
+"Dear Sir, we require the following material for our MRVCL, Mumbai Railway Project: 120 Nos of 6.5 kg CO2 type fire extinguishers. Please quote your best possible minimum rates along with the delivery ... Our GST No: 27AABCU9603R1ZV is applicable.",quotation_request,257,0,0,1,0,1,0,0,1,0,0,1,0,0,0,0
+"Dear Sir, We have a requirement of ""SCBA SET   04 NOS & SPARES SCBA CYLINDERS   04 NOS"" as per the attached specifications sheet. END USER: GRSE   KOLKATA We request you to kindly forward the techno c... As per PO #80650.",general_enquiry,222,0,0,1,1,0,0,0,0,1,0,0,0,0,0,1
+Delivered extinguishers are past expiry. Requesting urgent resolution....,complaint,73,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0
+Reminder: We're still awaiting the quote promised last Tuesday... Preferred Model No: FMX-2.5L.,follow_up,93,0,0,1,0,0,1,0,0,0,0,1,0,1,1,0
+What's the expected lifespan of your AVD blankets under constant 50°C operating temperatures?,general_enquiry,93,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Do you offer certified training programs for handling chemical fires using your DCP systems?,general_enquiry,92,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Please share the maintenance schedule for aerosol systems installed in server rooms with 24/7 operation.,general_enquiry,104,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Are your CO2 extinguishers compatible with high-voltage (33kV) electrical equipment as per latest IEC standards? Kindly include GST No: 27AAACX1234Z1Z in the invoice.,general_enquiry,171,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+We need confirmation if your FPS systems can integrate with our existing Siemens fire alarm panels. Our GST No: 27AABCU9603R1ZV is applicable.,general_enquiry,153,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+What's the lead time for 50+ units of marine-grade extinguishers with SOLAS certification? Preferred Model No: FMX-2.5L.,general_enquiry,118,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0
+Do you provide onsite refilling services for DCP extinguishers in the Mumbai region? Kindly include GST No: 27AAACX1234Z1Z in the invoice.,general_enquiry,138,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Please confirm if your 9L foam extinguishers are compatible with AR-AFFF concentrate. Kindly include GST No: 27AAACX1234Z1Z in the invoice.,general_enquiry,144,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Can you share the test reports for your FDSS from the last 3 years? Our GST No: 27AABCU9603R1ZV is applicable.,general_enquiry,121,1,0,0,0,1,0,0,0,0,1,0,1,0,0,0
+URGENT: The newly installed suppression system failed during mandatory testing - jets didn't activate and control panel showed error E45. Need immediate replacement! Preferred Model No: CO2-5KG.,complaint,193,0,1,1,0,0,1,1,0,0,0,0,0,0,0,0
+Unacceptable! Received 15 expired extinguishers (MFG 2020) against our PO for new stock. Demand full refund plus penalty. Preferred Model No: FMX-2.5L.,complaint,149,0,1,0,1,0,1,0,0,0,1,0,0,0,1,1
+Your technician left our FDSS in worse condition - now showing constant false alarms disrupting operations. Send senior engineer ASAP.,complaint,134,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+Third complaint about leaking DCP extinguishers - this time causing ₹2L damage to sensitive equipment. Will escalate legally.,complaint,125,0,0,0,0,0,0,0,0,0,1,0,0,1,1,1
+The 'ISI-certified' brackets supplied last week broke during routine inspection - provide genuine certified replacements immediately.,complaint,133,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0
+Your team missed 3 scheduled maintenance visits despite reminders. Considering terminating AMC contract. As per PO #69129. Preferred Model: DCP-6L.,complaint,132,0,0,0,1,0,1,0,0,0,1,0,0,1,0,1
+"False advertising! The 10kg CO2 units delivered hold only 8.5kg as per our calibration check. Items: Item: 4kg CO2 | Qty: 5 | Rate: Rs. 2400/-",complaint,157,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0
+System critical issue: Aerosol generators didn't deploy during controlled test fire. Complete system failure!,complaint,109,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0
+Unauthorized substitution: Received Kanex extinguishers instead of contracted Firefite units. Breach of terms! Preferred Model No: FMX-2.5L.,complaint,138,0,1,1,0,0,1,0,0,0,1,0,0,0,0,0
+Safety hazard: Multiple extinguishers from batch #FH2241 have defective pressure gauges showing false 'full' readings.,complaint,118,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1
+Follow-up #4: Still awaiting response on our complaint about faulty heat detectors installed 3 weeks ago. Escalating to management.,follow_up,131,0,0,1,0,0,0,0,0,0,0,0,0,2,1,1
+Reminder: Pending quotation for 35 ABC extinguishers needed for upcoming safety audit (originally requested 15 days ago).,follow_up,121,0,0,1,0,0,0,0,0,0,0,1,0,1,0,1
+Kindly update on the status of PO #2241 approval - our procurement deadline is tomorrow EOD. Kindly include GST No: 27AAACX1234Z1Z in the invoice.,follow_up,146,0,0,0,1,1,0,1,0,0,0,0,0,1,0,1
+Second follow-up: No response yet on the technical queries sent last week regarding FDSS integration. As per PO #34127.,follow_up,120,0,0,1,1,0,0,0,0,1,0,0,0,2,1,1
+"Please confirm receipt of our signed contract and share implementation timeline for the approved fire system. As per PO #35038. Items: Item: 4kg CO2 | Qty: 5 | Rate: Rs. 2400/-",follow_up,173,0,0,1,1,0,0,0,0,0,1,0,0,0,0,1
+Gentle reminder: The promised callback about training schedule never came. We need dates confirmed urgently. Kindly include GST No: 27AAACX1234Z1Z in the invoice.,follow_up,162,0,0,1,0,1,0,1,0,0,0,0,0,1,0,0
+Following up on our discussion about the customized 50kg foam system - awaiting your feasibility report.,follow_up,104,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+Requesting update: Has finance approved the quoted ₹12.8L for the warehouse suppression upgrade? As per PO #36036.,follow_up,115,1,0,1,1,0,0,0,0,0,0,1,0,1,0,1
+"Per our call yesterday, please share the revised proposal for AMC services by today 4PM. As per PO #68046.",follow_up,107,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1
+Reminder: Tomorrow is the scheduled installation date - kindly confirm crew arrival time.,follow_up,89,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0
+Awaiting your response on the warranty claim filed 10 days ago (Ticket #FC-2241). Kindly include GST No: 27AAACX1234Z1Z in the invoice.,follow_up,135,0,0,0,0,1,0,0,0,0,1,0,0,1,0,1
+"Per our call yesterday, please share the revised proposal for AMC services by today 4PM.... Reference PO#: 87518.",follow_up,110,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1
+"Dear Team, Greetings from Tiger Fire! ... interest in representing your esteemed brand... As per PO #67854.",general_enquiry,108,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1
+Requesting your best quote for 50 units of 9kg ABC powder extinguishers with ISI certification for our new factory in Pune. Required with wall brackets and maintenance certificates. Kindly include GST No: 27AAACX1234Z1Z in the invoice.,quotation_request,241,0,0,0,0,1,0,0,0,0,1,1,1,0,0,0
+"Kindly provide quotation for 10 nos. of 45kg CO2 trolley-mounted extinguishers with SOLAS certification for our marine project. Delivery needed within 3 weeks to Mumbai port. Preferred Model: FM-200. Items: Item: 4kg CO2 | Qty: 5 | Rate: Rs. 2400/-",quotation_request,242,0,0,1,0,0,1,0,1,0,0,1,1,0,0,0
+Please quote your most competitive rates for 25 sets of 6kg DCP extinguishers with IRS approval for our offshore platform. Include installation charges if applicable.,quotation_request,185,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0
+"We require urgent pricing for 100 units of 2kg aerosol fire suppression systems for server racks. Must have UL/CE certification and 3-year warranty. Reference PO#: 11940. Items: Item: 4kg CO2 | Qty: 5 | Rate: Rs. 2400/-",quotation_request,226,0,0,1,1,0,0,1,0,0,1,1,1,0,0,1
+"Request for quotation: 15 nos. 9L foam extinguishers with spare charges and 5 nos. 50kg wheeled foam units. Project: Tata Steel Gopalpur, required by 15th next month.",quotation_request,189,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0
+Kindly send commercial offer for 30 pieces of 4.5kg CO2 extinguishers with 90% MAP powder and wall brackets. Preferred brands: Minimax or Firefite. Preferred Model No: ABC-6KG.,quotation_request,199,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0
+"Please quote for annual maintenance contract for 150 extinguishers across our 5 retail outlets in Bangalore. Include refilling, inspection and certification costs. Preferred Model No: FMX-2.5L.",quotation_request,211,0,0,0,0,0,1,0,0,0,1,1,1,0,0,0
+Urgent: Need best rates for 200kg clean agent fire suppression system for our data center. Required with FM-200 agent and UL300 approval. As per PO #33252. Preferred Model: DCP-6L.,quotation_request,204,0,0,0,1,0,1,1,0,0,1,1,1,0,0,1
+"Requesting quotation for 8 sets of kitchen hood suppression systems as per NFPA96. Include design, installation and commissioning charges.",quotation_request,176,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+Please provide rates for 60 nos. 6kg ABC extinguishers with BIS certification for our housing project. Delivery required in 3 batches over 6 months.,quotation_request,191,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0
+Kindly submit quotation for 12 nos. 135L mechanical foam extinguishers with spare cartridges for our oil terminal. Must meet OISD standards.,quotation_request,184,0,0,1,0,0,0,0,1,0,0,1,1,0,0,0
+We require pricing for 25 units of vehicle-mounted 50kg DCP systems for our mining trucks. Include mounting brackets and maintenance training. Our GST No: 27AABCU9603R1ZV is applicable.,quotation_request,236,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+Please quote for 40 sets of 2kg FE36 clean agent extinguishers for electronics lab. Required with thermal indicators and wall signs. Our GST No: 27AABCU9603R1ZV is applicable.,quotation_request,228,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+Request your best offer for 18 nos. 9kg CO2 extinguishers with frost-free horns for our pharmaceutical cold storage units. As per PO #76506.,quotation_request,187,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1
+Kindly provide rates for 75 units of 6kg ABC extinguishers with aluminum shells for our corporate offices. Bulk discount expected.,quotation_request,173,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+The 15 extinguishers delivered yesterday all have pressure gauges in red zone. Request immediate replacement as this is safety critical.,complaint,125,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+Our received 10kg CO2 units are leaking from valves. Batch No. FE2234. Please arrange technician visit or replacement within 24 hours.,complaint,132,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+The installed kitchen suppression system failed during mandatory testing. Jets didn't activate and control panel showed error E12. Unacceptable!,complaint,158,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Received 25 units instead of 30 as per invoice #2245. Missing 5 nos. 6kg ABC extinguishers. Holding payment until resolved. As per PO #46500. Items: Item: 4kg CO2 | Qty: 5 | Rate: Rs. 2400/-",complaint,209,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1
+Your technician damaged our server room wall during FDSS installation. Provide compensation or we'll deduct from final payment. Reference PO#: 27246.,complaint,155,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1
+"The refilled DCP extinguishers show only 80% weight as per our verification. Demand proper refilling or full refund. Preferred Model No: FMX-2.5L. Items: Item: 4kg CO2 | Qty: 5 | Rate: Rs. 2400/-",complaint,192,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0
+Third follow-up: Still awaiting resolution for leaking foam extinguishers reported 2 weeks ago (Ticket #FC-1123). Escalating to management. Kindly include GST No: 27AAACX1234Z1Z in the invoice. Preferred Model: ULX-2.5L.,complaint,212,0,0,0,0,1,1,0,0,0,0,0,0,2,1,1
+The 'UL-certified' control panel supplied last month is clearly counterfeit. This violates our contract terms - serious action will follow.,complaint,147,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0
+"Maintenance team arrived 4 hours late without prior notice, disrupting our operations. Unprofessional and unacceptable.",complaint,139,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"The installed aerosol system discharged accidentally, causing ₹1.5L equipment damage. Provide root cause analysis and compensation. Kindly include GST No: 27AAACX1234Z1Z in the invoice.",complaint,215,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Received wrong model - FAS500 instead of FAS5000 as ordered. This delay is impacting our project timeline significantly. Preferred Model No: FMX-2.5L.,complaint,170,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0
+Your team left installation incomplete with exposed wiring. Failed safety audit as a result. Require urgent completion. Kindly include GST No: 27AAACX1234Z1Z in the invoice.,complaint,188,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0
+The annual maintenance was not performed as scheduled despite 3 reminders. Considering legal termination of contract. As per PO #84820.,complaint,148,0,0,0,1,0,0,0,0,0,1,0,0,1,1,1
+Brackets supplied with extinguishers are corroding within 2 months - clearly substandard material used. Replace with SS304 as promised. Kindly include GST No: 27AAACX1234Z1Z in the invoice.,complaint,210,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+"The training session promised with AMC was never conducted. Either arrange within 7 days or provide refund. Preferred Model No: DCP-4KG. Items: Item: 4kg CO2 | Qty: 5 | Rate: Rs. 2400/-",complaint,201,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0
+Please share technical specifications and test certificates for your 6kg ABC extinguishers. Need for compliance documentation.,general_enquiry,124,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0
+Do you provide customized color options for corporate branding of extinguishers? We require matching our RAL7021 grey standard.,general_enquiry,124,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Requesting product catalog and agency terms for distributing your fire safety products in Middle East region.,general_enquiry,108,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+What's the lead time for 50+ units of marine extinguishers with MED approval? Need for upcoming vessel drydock. Preferred Model No: CO2-5KG.,general_enquiry,126,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0
+Can your FDSS integrate with existing Siemens FS720 fire alarm panel? Need confirmation before procurement. Preferred Model No: DCP-4KG.,general_enquiry,140,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Please share maintenance schedule and checklist for aerosol systems in 24/7 data center environment.,general_enquiry,101,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Do you offer certified training programs for handling chemical fires using your DCP systems? Need for 15 staff members. Preferred Model No: CO2-5KG.,general_enquiry,162,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0
+Requesting MSDS sheets for all foam concentrates used in your extinguishers for our safety compliance records.,general_enquiry,105,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+What warranty do you provide on your clean agent systems? Need details on coverage and claim process.,general_enquiry,97,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Are your CO2 extinguishers suitable for 33kV switchgear protection as per latest IEC standards? Preferred Model No: DCP-4KG.,general_enquiry,146,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0
+Please confirm if your kitchen systems meet the new EN2-2018 standards for restaurant applications.,general_enquiry,106,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Do you have UL-approved models of your 9kg DCP extinguishers available for US projects?,general_enquiry,92,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Requesting site visit to demonstrate your vehicle suppression systems for our mining equipment fleet.,general_enquiry,113,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+What's the expected service life of your AVD fire blankets under constant 45°C industrial environment?,general_enquiry,121,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Can you provide references from recent clients who installed your data center suppression systems? As per PO #46464.,general_enquiry,123,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1
+Gentle reminder: Awaiting quotation for 35 ABC extinguishers requested 10 days ago. Our tender submission deadline is approaching.,follow_up,128,0,0,1,0,0,0,0,0,0,0,1,0,1,0,1
+Follow-up #3: Still no response to our technical queries about FDSS integration sent on 15th March. Kindly reply today.,follow_up,132,0,0,1,0,0,0,0,0,1,0,0,0,2,1,1
+Please confirm receipt of our PO#2241 for 50 extinguishers and share expected delivery date. Procurement team requires update.,follow_up,124,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1
+Reminder: Tomorrow is scheduled installation date for kitchen system. Kindly confirm crew arrival time. Kindly include GST No: 27AAACX1234Z1Z in the invoice.,follow_up,169,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0
+Following up on our discussion about customized 100kg foam system - awaiting your feasibility report promised last week. As per PO #66702.,follow_up,137,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1
+"Second reminder: The leaking extinguishers reported under warranty claim #WC-331 still not replaced after 2 weeks. Items: Item: 4kg CO2 | Qty: 5 | Rate: Rs. 2400/-",follow_up,174,0,0,1,0,0,0,0,0,0,1,0,0,2,1,1
+Kindly update on status of our complaint about faulty heat detectors (Ticket #FC-2241). Escalating if no resolution by EOD. Reference PO#: 70305.,follow_up,148,0,0,1,1,0,0,0,0,0,0,0,0,1,1,1
+"Per our call yesterday, awaiting revised AMC proposal by today 4PM as discussed. Need for management review.",follow_up,121,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Requesting update: Has finance approved the quoted ₹8.5L for warehouse suppression upgrade? Decision needed urgently. As per PO #34086.,follow_up,126,1,0,1,1,0,0,1,0,0,0,1,0,1,0,1
+Follow-up: The training certificates promised after last month's session still not received. Required for compliance audit. Reference PO#: 66943.,follow_up,134,0,0,0,1,0,0,0,0,0,1,0,1,1,0,1
+Reminder: Payment processed as per invoice #4451. Please share dispatch details and expected delivery timeline.,follow_up,118,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1
+Following up on demo unit request for your vehicle suppression system. Need confirmation of availability this week. Preferred Model No: DCP-4KG.,follow_up,157,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+Kindly send installation completion certificate for FDSS commissioned last month. Required for safety compliance file. Kindly include GST No: 27AAACX1234Z1Z in the invoice.,follow_up,176,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+Reminder: Annual maintenance due next week. Please share technician schedule and checklist in advance. Kindly include GST No: 27AAACX1234Z1Z in the invoice.,follow_up,170,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0
+Follow-up: No response to our request for extended warranty terms sent 7 days ago. Kindly prioritize.,follow_up,127,0,1,1,0,0,0,1,0,0,1,0,0,1,1,0
+The delivered CO2 extinguishers (Batch #FE-2234) are leaking from the valve seals. We need immediate replacement as this poses safety risks. Kindly include GST No: 27AAACX1234Z1Z in the invoice.,complaint,204,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1
+PO#44521: Received 25 units instead of the 30 we ordered. Missing 5 ABC 6kg extinguishers. Please rectify immediately. As per PO #53269.,complaint,132,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1
+Installation team left wiring exposed on our FDSS system. This failed our safety inspection. Require urgent remediation. As per PO #10252.,complaint,128,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1
+The annual maintenance wasn't performed as scheduled on 15/03 despite confirmation. This violates our AMC terms. As per PO #23918.,complaint,136,0,0,0,1,0,0,0,0,0,1,0,0,0,1,1
+Multiple extinguishers from delivery batch #FH2241 have stuck pressure gauges showing false 'full' readings.,complaint,114,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Received DCP models FX-300 instead of ordered FX-500. Wrong specifications for our chemical plant requirements.,complaint,118,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0
+Your technician damaged our server room wall during suppression system installation. Provide repair compensation. Kindly include GST No: 27AAACX1234Z1Z in the invoice.,complaint,206,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Refilled DCP units only contain 80% of rated powder weight as per our verification. Demand proper refilling.,complaint,111,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+The kitchen suppression system failed during testing - no agent release when triggered with test fire.,complaint,105,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Three 9L foam extinguishers arrived without mounting brackets as specified in PO#5512. Send missing parts ASAP.,complaint,114,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1
+"Could you confirm if your 6kg CO2 extinguishers are compatible with 33kV electrical equipment per IEC 60900? Our GST No: 27AABCU9603R1ZV is applicable. Items: Item: 4kg CO2 | Qty: 5 | Rate: Rs. 2400/-",general_enquiry,241,1,0,1,0,1,0,0,0,0,0,0,1,0,0,0
+We're evaluating fire systems for our new data center. Please share technical specs for your clean agent systems. Our GST No: 27AABCU9603R1ZV is applicable.,general_enquiry,160,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+Do your marine extinguishers come with MED approval certificates? Need for offshore platform deployment.,general_enquiry,106,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0
+Requesting maintenance schedule for aerosol systems in 24/7 industrial environments. Include inspection checklist.,general_enquiry,119,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Can you provide UL certification documents for your ABC stored-pressure extinguishers? Required for our audit. Preferred Model No: ABC-6KG.,general_enquiry,156,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0
+We haven't received the items yet. Could you please confirm dispatch?,follow_up,69,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Kindly let us know the expected delivery date for our order. As per PO #23679.,follow_up,80,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1
+"Please share the tracking ID for the shipment. Preferred Model No: CO2-5KG. Items: Item: 4kg CO2 | Qty: 5 | Rate: Rs. 2400/-",follow_up,138,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+Awaiting your update on the courier dispatch. As per PO #41936.,follow_up,64,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1
+"Please confirm if the order has been shipped. Preferred Model No: ABC-6KG. Items: Item: 4kg CO2 | Qty: 5 | Rate: Rs. 2400/-",follow_up,138,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+"Can you please provide the AWB number for the delivery? As per PO #97305. Items: Item: 4kg CO2 | Qty: 5 | Rate: Rs. 2400/-",follow_up,133,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1
+"Following up on our previous email about the order status. Items: Item: 4kg CO2 | Qty: 5 | Rate: Rs. 2400/-",follow_up,112,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0
+When can we expect delivery? Please advise.,follow_up,42,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Kindly share shipping details at the earliest.,follow_up,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+This is a reminder to confirm shipment of the extinguishers.,follow_up,61,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+Could you provide tracking details? Awaiting update.,follow_up,51,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+Requesting update on LR copy for dispatched items.,follow_up,51,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+Please confirm if our shipment has left your warehouse.,follow_up,54,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+We request an update on the transport schedule.,follow_up,46,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+Has the dispatch been initiated? Please let us know. Preferred Model No: CO2-5KG.,follow_up,84,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"We received the wrong product. Please arrange replacement. Kindly include GST No: 27AAACX1234Z1Z in the invoice. Items: Item: 4kg CO2 | Qty: 5 | Rate: Rs. 2400/-",complaint,177,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0
+"The shipment was delayed beyond the committed date. Preferred Model No: CO2-5KG. Items: Item: 4kg CO2 | Qty: 5 | Rate: Rs. 2400/-",complaint,142,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+Some items are missing in the package. As per PO #32413.,complaint,57,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1
+The unit delivered is damaged. Immediate action required.,complaint,55,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0
+The extinguishers are not working as expected.,complaint,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+We’re unhappy with the service quality.,complaint,37,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+The wrong model was sent. Please correct this.,complaint,45,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+The packaging was torn and units are scratched.,complaint,47,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Very poor coordination — delivery was incomplete.,complaint,49,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+The items delivered are faulty.,complaint,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+The team promised dispatch but nothing has arrived yet.,complaint,54,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+This delay is affecting our site handover schedule. Kindly include GST No: 27AAACX1234Z1Z in the invoice. Reference PO#: 24165.,complaint,134,0,0,0,1,1,0,0,1,0,0,0,0,0,0,1
+"We were assured delivery last week, but it’s still pending. Preferred Model No: DCP-4KG.",complaint,92,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Product malfunctioning out of the box. Preferred Model No: FMX-2.5L.,complaint,72,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Repeated delays in shipment. This is unacceptable. Preferred Model: ULX-2.5L.,complaint,82,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+We are highly disappointed with the defective items sent last week. Kindly include GST No: 27AAACX1234Z1Z in the invoice.,complaint,128,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Your team is unresponsive regarding the warranty replacement. Preferred Model No: FMX-2.5L.,complaint,96,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0
+The equipment failed during testing. We need an urgent resolution.,complaint,67,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0
+We expected better support for faulty extinguishers. Preferred Model No: ABC-6KG.,complaint,84,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Your service team failed to arrive at the scheduled time. Preferred Model No: ABC-6KG.,complaint,84,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Very poor coordination during installation. Kindly include GST No: 27AAACX1234Z1Z in the invoice.,complaint,105,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Items delivered are substandard and unusable.,complaint,43,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+This level of service is unacceptable.,complaint,35,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Still waiting for someone to fix the broken unit. Reference PO#: 16975.,complaint,70,0,0,0,1,0,0,0,0,0,0,0,0,1,1,1
+No response yet regarding the repeated product issues. Reference PO#: 19826.,complaint,77,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1
+The invoice mismatch issue is still unresolved. Kindly include GST No: 27AAACX1234Z1Z in the invoice.,complaint,113,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1
+Our site has halted due to non-functional safety systems.,complaint,57,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Quality of product received is not up to mark.,complaint,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Despite reminders, issue is pending for over a week. Reference PO#: 40103.",complaint,75,0,0,0,1,0,0,0,0,0,0,0,0,1,1,1
+Damaged item received — need urgent replacement. Kindly include GST No: 27AAACX1234Z1Z in the invoice. Preferred Model: ULX-2.5L.,complaint,134,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0
+Could you confirm the warranty terms for this product? Preferred Model No: CO2-5KG.,general_enquiry,84,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0
+Please provide technical specifications for the model XLP-45. Kindly include GST No: 27AAACX1234Z1Z in the invoice.,general_enquiry,120,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0
+We would like to know about your installation support process.,general_enquiry,63,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Is the CO2 extinguisher certified for marine use?,general_enquiry,50,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Kindly clarify the annual maintenance requirements.,general_enquiry,50,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Do you provide site training for operators?,general_enquiry,42,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Could you share your AMC terms and conditions? Our GST No: 27AABCU9603R1ZV is applicable. Items: Item: 4kg CO2 | Qty: 5 | Rate: Rs. 2400/-",general_enquiry,173,1,0,1,0,1,0,0,0,0,1,0,0,0,0,0
+What is the expected lifespan of this unit? Preferred Model No: ABC-6KG.,general_enquiry,77,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+We are looking for documentation regarding servicing.,general_enquiry,51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Is there any compatibility chart for accessories? Kindly include GST No: 27AAACX1234Z1Z in the invoice.,general_enquiry,112,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Please let us know the lead time for bulk delivery.,general_enquiry,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Do you provide installation at remote locations? Kindly include GST No: 27AAACX1234Z1Z in the invoice.,general_enquiry,109,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Need clarification on coverage under standard warranty.,general_enquiry,54,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Requesting product datasheet for compliance check.,general_enquiry,49,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0
+Can you share the troubleshooting guide? As per PO #51909.,general_enquiry,60,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1
+What is the warranty coverage for your CO2 extinguisher models?,general_enquiry,64,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Please confirm the service intervals for your suppression systems. Our GST No: 27AABCU9603R1ZV is applicable.,general_enquiry,114,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+"Could you share the brochure with specifications and dimensions? Our GST No: 27AABCU9603R1ZV is applicable. Items: Item: 4kg CO2 | Qty: 5 | Rate: Rs. 2400/-",general_enquiry,179,1,0,1,0,1,0,0,0,1,0,0,0,0,0,0
+Do you offer AMC support in Maharashtra region?,general_enquiry,46,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Is your product certified by ISI or UL? Kindly include GST No: 27AAACX1234Z1Z in the invoice.,general_enquiry,103,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+We need technical guidance on fire panel integration.,general_enquiry,51,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+Can you explain the working principle of the Inergen system?,general_enquiry,62,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Please advise on operating temperature range for this model. As per PO #70264.,general_enquiry,81,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1
+Do you provide training sessions post-installation?,general_enquiry,50,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+What is the response time of your addressable panels?,general_enquiry,52,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"How many nozzles are needed for 250 sq.ft server room? Items: Item: 4kg CO2 | Qty: 5 | Rate: Rs. 2400/-",general_enquiry,112,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Does your extinguisher comply with NBC 2016 guidelines? As per PO #65001.,general_enquiry,76,1,0,0,1,0,0,0,0,0,0,0,1,0,0,1
+What’s the refilling procedure for clean agent cylinders? Preferred Model No: FMX-2.5L.,general_enquiry,88,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0
+Can you confirm if support is available in Gujarat? Preferred Model No: CO2-5KG.,general_enquiry,78,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+What is the shelf life of these extinguishers?,general_enquiry,45,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Please send quotation for 10 units of 6 kg ABC extinguishers.,quotation_request,63,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Kindly provide commercial offer for FM200 system for server room. Our GST No: 27AABCU9603R1ZV is applicable.,quotation_request,117,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+We request your best price for CO2 extinguishers with ISI mark.,quotation_request,65,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+Need price breakup for 3 different sizes of clean agent units. Reference PO#: 60852.,quotation_request,84,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1
+Requesting quotation for supply and installation of fire panels.,quotation_request,65,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Share your quotation including delivery charges to Hyderabad. As per PO #70780.,quotation_request,80,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1
+Please quote for the enclosed BOQ items at the earliest. As per PO #95183.,quotation_request,79,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1
+Kindly share your commercial proposal for warehouse project.,quotation_request,60,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+"What would be your rate for 10 nos of 4.5kg CO2 units? Items: Item: 4kg CO2 | Qty: 5 | Rate: Rs. 2400/-",quotation_request,118,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0
+Please send budgetary pricing for aerosol-based system. As per PO #21102.,quotation_request,80,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1
+"Provide quotation for supply only, excluding installation. Preferred Model: FM-200.",quotation_request,84,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0
+Quotation required for annual AMC service at 2 sites. Kindly include GST No: 27AAACX1234Z1Z in the invoice.,quotation_request,118,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0
+Please include taxes and delivery timeline in your quote. As per PO #61754.,quotation_request,80,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1
+Need your quotation for the attached specification sheet. Preferred Model No: CO2-5KG. Reference PO#: 86586.,quotation_request,115,0,0,0,1,0,1,0,0,1,0,1,0,0,0,1
+Kindly provide rate contract for bulk extinguishers. Preferred Model No: ABC-6KG.,quotation_request,85,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0
+We were overcharged compared to the original quotation. Preferred Model No: FMX-2.5L.,complaint,87,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0
+"The quoted price was approved, but you invoiced more.",complaint,53,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1
+There is a mismatch in quoted rate and delivery invoice.,complaint,55,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1
+This delay in sending revised quote is unacceptable. Reference PO#: 90734.,complaint,77,0,1,0,1,0,0,0,0,0,0,1,0,0,0,1
+We haven’t received the items despite payment as per quote. As per PO #44366. Preferred Model: ULX-2.5L.,complaint,113,0,0,0,1,0,1,0,0,0,0,1,0,0,0,1
+Please quote for 50 units of 9kg DCP extinguishers.,quotation_request,51,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+We request your best rate for enclosed items in BOQ.,quotation_request,52,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Kindly send your updated quotation including GST. Preferred Model No: ABC-6KG. Our GST No: 27AABCU9603R1ZV is applicable.,quotation_request,132,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0
+Need commercial proposal for supply and installation.,quotation_request,52,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Please provide your price list for standard models.,quotation_request,50,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+We are still waiting for your confirmation on the revised PO. Preferred Model No: CO2-5KG.,follow_up,91,0,0,0,1,0,1,0,0,0,0,0,0,1,0,1
+Kindly update us on the shipment status of our last order. Kindly include GST No: 27AAACX1234Z1Z in the invoice.,follow_up,118,0,0,0,0,1,0,0,0,0,0,0,0,1,0,1
+Please confirm if the technician visit is scheduled tomorrow. As per PO #25402.,follow_up,78,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1
+This is a gentle reminder regarding our previous query. Kindly include GST No: 27AAACX1234Z1Z in the invoice.,follow_up,117,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0
+Has the approval for the revised pricing been shared?,follow_up,53,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Can you let us know when dispatch will happen?,follow_up,43,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Awaiting your confirmation on the revised commercial offer. Kindly include GST No: 27AAACX1234Z1Z in the invoice.,follow_up,118,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0
+"Please acknowledge receipt of our email from last week. As per PO #34362. Items: Item: 4kg CO2 | Qty: 5 | Rate: Rs. 2400/-",follow_up,146,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1
+Any update on the logistics and expected delivery timeline? Reference PO#: 86854.,follow_up,84,1,0,0,1,0,0,0,0,0,0,0,0,1,0,1
+Following up on the request for installation visit confirmation.,follow_up,64,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+Kindly provide your commercial quotation for 6 kg CO2 extinguishers.,quotation_request,68,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Please quote for supply and installation of clean agent system.,quotation_request,63,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Requesting your best price for items mentioned in attached BOQ. Reference PO#: 22299. Preferred Model: CO2-4KG.,quotation_request,122,0,0,0,1,0,1,0,0,0,0,1,0,0,0,1
+Please send your quotation including taxes and delivery. Reference PO#: 25124. Our GST No: 27AABCU9603R1ZV is applicable.,quotation_request,133,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1
+Share your best offer for the listed safety items.,quotation_request,49,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Please share your competitive quotation for annual AMC service. As per PO #92304.,quotation_request,84,0,0,0,1,0,0,0,0,0,1,1,0,0,0,1
+Need pricing for FM200 system installation at our facility. Preferred Model No: FMX-2.5L. Our GST No: 27AABCU9603R1ZV is applicable.,quotation_request,142,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0
+Request you to provide a commercial offer with technical spec. Kindly include GST No: 27AAACX1234Z1Z in the invoice.,quotation_request,132,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0
+"Looking for a budgetary quote for complete fire safety setup. As per PO #65485. Preferred Model: FM-200. Items: Item: 4kg CO2 | Qty: 5 | Rate: Rs. 2400/-",quotation_request,180,0,0,1,1,0,1,0,0,0,0,1,0,0,0,1
+Send your quotation for refill and servicing of extinguishers. Kindly include GST No: 27AAACX1234Z1Z in the invoice.,quotation_request,123,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0
+We need your price offer for portable fire suppression units.,quotation_request,60,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"Kindly provide your rate contract for bulk fire cylinders. As per PO #48217. Items: Item: 4kg CO2 | Qty: 5 | Rate: Rs. 2400/-",quotation_request,143,0,0,1,1,0,0,0,0,0,0,1,0,0,0,1
+Quotation required for next quarter procurement plan. Kindly include GST No: 27AAACX1234Z1Z in the invoice.,quotation_request,117,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0
+Share best price for ISI-certified DCP extinguishers. Our GST No: 27AABCU9603R1ZV is applicable. Preferred Model: CO2-4KG.,quotation_request,134,0,0,0,0,1,1,0,0,0,0,1,1,0,0,0
+We’re still waiting for your reply on the updated proposal.,follow_up,59,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+"Has the dispatch for order #2145 been confirmed? As per PO #41406. Items: Item: 4kg CO2 | Qty: 5 | Rate: Rs. 2400/-",follow_up,127,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1
+Please update us on the service visit request sent last week.,follow_up,61,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+Following up on the email sent on Monday regarding pricing.,follow_up,58,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0
+Any update regarding our AMC contract renewal? As per PO #64786.,follow_up,64,1,0,0,1,0,0,0,0,0,1,0,0,1,0,1
+Awaiting your revert on installation timeline. As per PO #37519.,follow_up,67,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1
+When can we expect a response on our pending ticket?,follow_up,51,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Could you confirm dispatch tracking details? Kindly include GST No: 27AAACX1234Z1Z in the invoice.,follow_up,106,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Checking status on technical clarification requested.,follow_up,51,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0
+Please acknowledge receipt of our PO confirmation.,follow_up,49,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1
+Still no update on the revised delivery schedule. Preferred Model No: CO2-5KG.,follow_up,81,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0
+Kindly respond to the payment reminder sent earlier.,follow_up,51,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1
+"Looking for an update on invoice correction. Kindly include GST No: 27AAACX1234Z1Z in the invoice. Reference PO#: 31986. Items: Item: 4kg CO2 | Qty: 5 | Rate: Rs. 2400/-",follow_up,180,0,0,1,1,1,0,0,0,0,0,0,0,1,0,1
+Have the safety audit documents been shared?,follow_up,42,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0
+Please confirm if demo unit has been arranged.,follow_up,45,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"This is a third reminder regarding our invoice #456 which is still showing as unpaid. This is now affecting our account status.",follow_up,131,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+Following up on the promised datasheet for the A5000 model. We need it for our client presentation tomorrow. Gentle reminder.,follow_up,135,0,0,0,0,0,1,0,0,1,0,0,0,2,0,0
+"Our complaint (Ticket #C-889) about the damaged shipment has seen no action for 5 days. We are now formally escalating this issue.",follow_up,137,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Any news on the quotation for the Bangalore project? We need to submit our final bid by Friday. Checking in on the status.,follow_up,127,1,0,0,0,0,0,0,1,0,0,1,0,2,0,1
+"Still no resolution on the faulty pressure gauges reported last week. This is a critical safety failure and our plant is non-compliant. What is the update?",follow_up,161,1,0,0,0,0,0,0,1,0,0,0,0,1,1,1
+"The delivered extinguishers are past their expiry date. This is a severe breach of contract and a safety hazard. We demand immediate replacement.",complaint,145,0,0,0,0,0,0,1,0,0,1,0,0,0,1,1
+"The technician who visited yesterday for AMC service was unprofessional and did not complete the checks as per the list. Very poor service.",complaint,149,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+"We were quoted for UL-certified extinguishers but received non-certified ones. This is fraudulent. We will be reporting this.",complaint,134,0,0,0,0,0,0,0,0,0,1,1,1,0,1,0
+"After the system 'fix' last week, we've had three false alarms. The system is now more unreliable than before. Send a competent engineer.",complaint,146,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Our PO#7789 for 50 units was confirmed for delivery on the 15th. It is now the 20th and we have no goods and no communication. This is unacceptable.",complaint,154,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1
+"Could you provide a datasheet that details the operating temperature range for the model K-2000? We need to ensure it's suitable for a furnace area.",general_enquiry,162,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0
+"We are a distributor in Nigeria and are interested in your product line. Could you share your export price list and partnership terms?",general_enquiry,148,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0
+"What is the standard procedure for warranty claims? One of our new units is showing a fault code (E-02) right out of the box.",general_enquiry,142,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1
+"Do you offer onsite installation and training services in the tier-2 cities like Lucknow and Jaipur?",general_enquiry,109,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"For a 1000 sq ft server room with a raised floor, how many aerosol generators would you recommend for total flooding as per NFPA 2010?",general_enquiry,149,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+"Please quote for 250 units of 2kg ABC extinguishers for a government housing project. We need BIS and ISI certification. Please provide your most competitive rate.",quotation_request,178,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0
+"We need a quotation for an entire kitchen hood fire suppression system for a 3-star hotel. Please include design, supply, and installation. Must comply with NFPA 96.",quotation_request,192,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+"Requesting a quote for the annual maintenance contract (AMC) for 120 extinguishers of mixed types (CO2, DCP, Foam) spread across 3 of our office locations in Delhi NCR.",quotation_request,194,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0
+"Kindly provide your best offer for 20 trolley-mounted 50kg foam extinguishers with MED certification for our fleet of vessels.",quotation_request,149,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+"We require pricing for 5 sets of clean agent systems for our electrical panel rooms. Please specify the agent used (e.g., Novec 1230, FM-200) and provide UL certification.",quotation_request,192,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0
+"The invoice #IN-556 shows a total of ₹50,000, but the approved quotation was for ₹45,000. This is the second time this has happened. Please correct and resend.",complaint,177,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1
+"We were let down by our previous supplier. We urgently need a quote for 100x 6kg ABC extinguishers (ISI marked) delivered to our Pune site by next Friday. Failure to quote on time will be an issue.",quotation_request,211,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0
+"The main technical problem we are trying to solve is fire suppression in a high-vibration environment for our mining trucks. Can you recommend a system and provide specs? We have an issue with standard brackets failing.",general_enquiry,246,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+"Following up on my question from last week regarding the MED certification for model FMX-2.5L. We need this confirmation to proceed with our client's PO. Any update?",follow_up,175,2,0,0,1,0,1,0,0,1,0,0,1,2,0,1
+"This is our third follow-up on ticket #C-889. The issue with the leaking valves is still not resolved. We are now escalating this matter to our management.",follow_up,161,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+"The fire panel your team installed is showing a 'communication error' with the smoke detectors. This is a critical problem for our compliance audit next week. Need this fixed ASAP.",complaint,187,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"We are looking for a fire safety partner for our upcoming residential project. The primary challenge is finding cost-effective solutions that meet all NBC guidelines. Can you provide a preliminary consultation?",general_enquiry,220,1,0,0,0,0,0,0,1,0,0,1,1,0,0,0
+"Just checking in to see if you had a chance to look at the architectural drawings we sent over for the quotation request? Our bid submission is on the 25th.",follow_up,157,1,0,0,0,0,0,0,1,0,0,1,0,1,0,1
+"We have an issue with the latest batch of CO2 extinguishers (Batch #C02-991). The weight is inconsistent across units. This quality control problem needs to be addressed before we can place a larger order.",complaint,210,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1
+"Reminder: We are still awaiting the revised quotation with the 10% discount we discussed last Tuesday. Please send it today so we can process the PO.",follow_up,150,0,0,0,1,0,0,0,0,0,0,1,0,1,0,1
+"The problem is not the product itself, but the lack of documentation. Can you please provide the UL certificate and the MSDS for the AFFF foam concentrate? We need this for our safety records.",general_enquiry,208,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0
+"The quote you provided (Quote #Q-123) is missing the installation charges we specifically asked for. Please revise and resend the complete quotation.",complaint,154,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1
+"We have an urgent requirement for a fire suppression system for a temporary event structure. The main issue is that we cannot drill into the walls. Do you have any solutions that use floor stands or non-permanent mounting?",general_enquiry,241,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"Following up on our payment for invoice #7890. It was sent via NEFT on the 18th. Could you please confirm receipt and share the dispatch schedule for the goods?",follow_up,161,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1
+"We are very disappointed. The delivery for PO#54321 is now two weeks late, and your customer service has provided no clear reason for the delay. This is affecting our project milestones.",complaint,185,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1
+"Gentle reminder about the technical datasheets for the K-type extinguishers. We requested these last Monday to finalize our internal specifications.",follow_up,148,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1
+"Your technician was supposed to arrive at 10 AM for the scheduled maintenance of our FDSS. It is now 2 PM and he is not here. This lack of professionalism is unacceptable.",complaint,169,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0
+"We have a problem with customs clearance for your shipment. They are asking for a Certificate of Origin, which was not included in the documents. Could you please email it to us urgently?",general_enquiry,201,1,0,0,0,0,0,1,0,0,0,0,1,0,0,1
+"Please provide your most competitive quote for 15 sets of vehicle fire suppression systems for our fleet of buses. We need a solution that is both effective and easy to maintain. The primary issue our last supplier had was frequent false alarms.",quotation_request,273,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"I am following up on behalf of Mr. Sharma regarding the AMC renewal proposal. He has a few questions about the new terms. Is it possible to schedule a brief call?",follow_up,171,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+"This is a formal complaint. The extinguishers delivered under PO#9901 are not ISI marked as was mandated in the tender and the quote. This is a major compliance failure.",complaint,177,0,0,0,1,0,0,0,0,0,0,1,1,0,1,1
+"Our current challenge is protecting a heritage building where drilling is not permitted. Can you provide information on wireless fire detection systems and any non-invasive suppression options you offer?",general_enquiry,216,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Second follow-up on our request for the installation completion certificate (for PO#6543). Our accounts team cannot process the final payment without this document.",follow_up,178,0,0,0,1,0,0,0,0,0,0,0,0,2,1,1
+"Could you quote for a replacement control panel for our existing FM-200 system, model FCP-240? The current one has a faulty motherboard. We need a price for supply only.",quotation_request,180,1,0,0,0,0,1,0,0,0,0,1,0,0,0,1
+"There seems to be a slight discrepancy in the shipment. We ordered model ABC-5 but received ABC-3. Could you please advise on the process for an exchange?",complaint,161,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0

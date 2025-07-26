@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send Campaign - Bharati AI</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .task-status {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 5px;
+            display: none;
+        }
+        .status-pending { background-color: #fff3cd; border: 1px solid #ffeaa7; }
+        .status-success { background-color: #d4edda; border: 1px solid #c3e6cb; }
+        .status-failure { background-color: #f8d7da; border: 1px solid #f5c6cb; }
+        .status-progress { background-color: #cce5ff; border: 1px solid #99ccff; }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Send Email Campaign</h3>
+                    </div>
+                    <div class="card-body">
+                        <!-- Flash Messages -->
+                        {% with messages = get_flashed_messages(with_categories=true) %}
+                            {% if messages %}
+                                {% for category, message in messages %}
+                                    <div class="alert alert-{{ 'danger' if category == 'error' else 'warning' if category == 'warning' else 'info' if category == 'info' else 'success' }} alert-dismissible fade show" role="alert">
+                                        {{ message }}
+                                        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                                    </div>
+                                {% endfor %}
+                            {% endif %}
+                        {% endwith %}
+
+                        <form method="POST" id="campaignForm">
+                            <div class="mb-3">
+                                <label for="campaign_id" class="form-label">Select Campaign</label>
+                                <select class="form-select" id="campaign_id" name="campaign_id" required>
+                                    <option value="">Choose a campaign...</option>
+                                    {% for campaign in campaigns %}
+                                        <option value="{{ campaign._id }}">{{ campaign.name }} ({{ campaign._id }})</option>
+                                    {% endfor %}
+                                </select>
+                            </div>
+
+                            <div class="mb-3">
+                                <small class="form-text text-muted">
+                                    This will send emails to all leads in the database for the selected campaign.
+                                </small>
+                            </div>
+
+                            <div class="d-grid gap-2">
+                                <button type="submit" class="btn btn-primary" id="sendBtn">
+                                    <span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true" style="display: none;"></span>
+                                    Send Campaign Emails
+                                </button>
+                            </div>
+                        </form>
+
+                        <!-- Task Status Display -->
+                        <div id="taskStatus" class="task-status">
+                            <h5>Task Status</h5>
+                            <div id="statusContent">
+                                <div class="d-flex align-items-center">
+                                    <div class="spinner-border spinner-border-sm me-2" role="status"></div>
+                                    <span id="statusText">Initializing...</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quick Actions -->
+                <div class="card mt-4">
+                    <div class="card-header">
+                        <h5>Quick Actions</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <a href="/replies" class="btn btn-outline-primary btn-sm">View Replies</a>
+                                <a href="/dashboard" class="btn btn-outline-secondary btn-sm">Dashboard</a>
+                            </div>
+                            <div class="col-md-6">
+                                <a href="/leads" class="btn btn-outline-info btn-sm">Manage Leads</a>
+                                <a href="/campaigns" class="btn btn-outline-success btn-sm">Manage Campaigns</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        let taskId = null;
+        let statusInterval = null;
+
+        document.getElementById('campaignForm').addEventListener('submit', function(e) {
+            const sendBtn = document.getElementById('sendBtn');
+            const spinner = sendBtn.querySelector('.spinner-border');
+            
+            // Show loading state
+            sendBtn.disabled = true;
+            spinner.style.display = 'inline-block';
+            sendBtn.innerHTML = '<span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>Sending...';
+        });
+
+        // Function to check task status
+        function checkTaskStatus(taskId) {
+            fetch(`/task_status/${taskId}`)
+                .then(response => response.json())
+                .then(data => {
+                    updateTaskStatus(data);
+                    
+                    // Continue checking if task is still pending or in progress
+                    if (data.state === 'PENDING' || data.state === 'PROGRESS') {
+                        setTimeout(() => checkTaskStatus(taskId), 2000);
+                    }
+                })
+                .catch(error => {
+                    console.error('Error checking task status:', error);
+                    document.getElementById('statusText').textContent = 'Error checking status';
+                });
+        }
+
+        // Function to update task status display
+        function updateTaskStatus(data) {
+            const statusDiv = document.getElementById('taskStatus');
+            const statusContent = document.getElementById('statusContent');
+            const statusText = document.getElementById('statusText');
+            
+            statusDiv.style.display = 'block';
+            statusDiv.className = 'task-status';
+            
+            if (data.state === 'PENDING') {
+                statusDiv.classList.add('status-pending');
+                statusText.textContent = 'Task is queued and waiting to be processed...';
+            } else if (data.state === 'PROGRESS') {
+                statusDiv.classList.add('status-progress');
+                statusText.textContent = `In progress: ${data.status}`;
+            } else if (data.state === 'SUCCESS') {
+                statusDiv.classList.add('status-success');
+                statusContent.innerHTML = `
+                    <div class="d-flex align-items-center">
+                        <span class="text-success me-2">✓</span>
+                        <span>Campaign sent successfully!</span>
+                    </div>
+                    <div class="mt-2">
+                        <small class="text-muted">${JSON.stringify(data.result, null, 2)}</small>
+                    </div>
+                `;
+            } else if (data.state === 'FAILURE') {
+                statusDiv.classList.add('status-failure');
+                statusContent.innerHTML = `
+                    <div class="d-flex align-items-center">
+                        <span class="text-danger me-2">✗</span>
+                        <span>Task failed: ${data.status}</span>
+                    </div>
+                `;
+            }
+        }
+
+        // Extract task ID from flash messages if present
+        window.addEventListener('load', function() {
+            const alerts = document.querySelectorAll('.alert');
+            alerts.forEach(alert => {
+                const text = alert.textContent;
+                const match = text.match(/Task ID: ([a-f0-9-]+)/);
+                if (match) {
+                    taskId = match[1];
+                    setTimeout(() => checkTaskStatus(taskId), 1000);
+                }
+            });
+        });
+    </script>
+</body>
+</html>

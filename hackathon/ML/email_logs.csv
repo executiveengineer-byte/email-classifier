@@ -1,0 +1,5 @@
+timestamp,email,category,emotion,confidence,response
+2025-06-25 16:41:29,The extinguisher you delivered last week is not working. I’m disappointed.,complaint,neutral,0.65,We sincerely apologize for the inconvenience. Our quality team will contact you within 2 hours to resolve this (Case ID: N/A).
+2025-06-25 16:46:39,The extinguisher you delivered last week is not working. I’m disappointed.,complaint,neutral,0.65,We sincerely apologize for the inconvenience. Our quality team will contact you within 2 hours to resolve this (Case ID: N/A).
+2025-06-25 16:46:52,I need a quotashun for the new safety device please,general_enquiry,neutral,0.65,Thank you for contacting us! A specialist will respond to your query within 1 business day.
+2025-06-25 16:47:05,"Just a reminder, I’m still waiting for a response.",follow_up,neutral,0.65,Thank you for your patience. Your request (Ref: N/A) is being processed and we'll update you by EOD.
